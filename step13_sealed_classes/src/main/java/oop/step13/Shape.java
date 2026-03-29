@@ -1,5 +1,5 @@
 package oop.step13;
 
-public sealed interface Shape permits Circle, Rectangle, Triangle {
-    double area();
+public interface Shape {
+    // TODO: 写経する
 }

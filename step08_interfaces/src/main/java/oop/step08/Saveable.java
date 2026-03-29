@@ -1,5 +1,5 @@
 package oop.step08;
 
 public interface Saveable {
-    void save(String path);
+    // TODO: 写経する
 }

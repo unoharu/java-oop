@@ -1,6 +1,5 @@
 package oop.step17;
 
 public interface Button {
-    void render();
-    void onClick();
+    // TODO: 写経する
 }
