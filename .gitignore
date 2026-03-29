@@ -4,6 +4,9 @@ tasks
 # Maven build output
 target/
 
+# 写経用ディレクトリ（my_ プレフィックス）
+my_*/
+
 # IDE
 .idea/
 *.iml
