@@ -59,49 +59,15 @@ code --install-extension vscjava.vscode-java-pack
 
 ### 1ステップの流れ
 
-1. `docs/article.md` を読んで概念を理解する
-2. `step00_template` をコピーして写経用ディレクトリを作る
-3. コピーした `pom.xml` の `<mainClass>` をそのステップに合わせて変更する
-4. このリポジトリのコードを見ながら、自分で `.java` ファイルを書く（コピペしない）
-5. `mvn compile exec:java` で実行して出力を確認する
-6. 理解できたら次のステップへ
+1. `docs/article.md` を読んでコードと概念を理解する
+2. 各ステップのディレクトリに空の `.java` ファイルが用意されているので、中身を書く
+3. `mvn compile exec:java` で実行して出力を確認する
+4. 理解できたら次のステップへ
 
-### テンプレートのコピー手順
-
-step01 の写経を始める場合：
+### 実行方法
 
 ```bash
-# テンプレートをコピー
-cp -r step00_template my_step01
-
-# ソースファイルの配置場所を作る
-mkdir -p my_step01/src/main/java/oop/step01
-```
-
-`my_step01/pom.xml` の `<mainClass>` を変更する：
-
-```xml
-<!-- 変更前 -->
-<mainClass>oop.step00.Main</mainClass>
-
-<!-- 変更後 -->
-<mainClass>oop.step01.Main</mainClass>
-```
-
-`my_step01/src/main/java/oop/step01/Main.java` を新規作成する（`package` 宣言もステップ番号に合わせる）：
-
-```java
-package oop.step01;  // step00 → step01 に変更
-
-public class Main {
-    public static void main(String[] args) {
-        // ここから写経
-    }
-}
-```
-
-```bash
-cd my_step01
+cd step01_classes_objects
 mvn compile exec:java
 ```
 
