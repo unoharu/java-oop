@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>oop.learning</groupId>
+  <artifactId>java-oop-parent</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <name>Java OOP Learning Curriculum</name>
+  <description>Java 25 OOP step-by-step curriculum</description>
+
+  <modules>
+    <module>step01_classes_objects</module>
+    <module>step02_constructors</module>
+    <module>step03_encapsulation</module>
+    <module>step04_inheritance</module>
+    <module>step05_overriding_overloading</module>
+    <module>step06_polymorphism</module>
+    <module>step07_abstract_classes</module>
+    <module>step08_interfaces</module>
+    <module>step09_inner_classes</module>
+    <module>step10_generics</module>
+    <module>step11_enums</module>
+    <module>step12_records</module>
+    <module>step13_sealed_classes</module>
+    <module>step14_exception_handling</module>
+    <module>step15_pattern_singleton</module>
+    <module>step16_pattern_builder</module>
+    <module>step17_pattern_factory</module>
+    <module>step18_pattern_observer</module>
+    <module>step19_pattern_strategy</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.release>25</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+          <configuration>
+            <release>25</release>
+            <encoding>UTF-8</encoding>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>3.3.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
