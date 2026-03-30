@@ -142,4 +142,4 @@ Box<String> と Box<Integer> は同じクラス: true
 | `<? extends T>` | Producer Extends — 読み出し用（PECS）|
 | 型消去 | ジェネリクスはコンパイル時のみ。実行時は `T` が消える |
 
-次のステップ → [Step 11 - 列挙型](../../step11_enum/docs/article.md)
+次のステップ → [Step 11 - 列挙型](../../step11_enums/docs/article.md)
