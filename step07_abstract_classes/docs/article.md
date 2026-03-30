@@ -115,4 +115,4 @@ mvn compile exec:java -pl step07_abstract_classes
 | テンプレートメソッド | 骨格を定義し、可変部分をサブクラスに委ねる |
 | 抽象クラス vs インタフェース | 状態（フィールド）が必要なら抽象クラス、能力の契約なら step08 のインタフェース |
 
-次のステップ → [Step 08 - インタフェース](../../step08_interface/docs/article.md)
+次のステップ → [Step 08 - インタフェース](../../step08_interfaces/docs/article.md)
