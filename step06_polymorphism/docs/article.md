@@ -78,7 +78,7 @@ if (s instanceof Circle c) {
 mvn compile exec:java -pl step06_polymorphism
 ```
 
-```
+```text
 === Shape 配列によるポリモーフィズム ===
 円: 面積 = 78.53981633974483
 長方形: 面積 = 24.0
@@ -98,7 +98,7 @@ Triangle — 底辺: 5.0, 高さ: 4.0
 | --- | --- |
 | `Shape[] shapes` | 異なるサブクラスを同じ型で扱える |
 | 動的ディスパッチ | `s.area()` が実行時に実際の型のメソッドを呼ぶ |
-| `instanceof パターンマッチング` | 型チェック + キャストを1行で記述（Java 16+）|
+| `instanceof パターンマッチング` | 型チェック + キャストを1行で記述（Java 16+） |
 | ポリモーフィズムの利点 | 新しいサブクラスを追加しても呼び出し側のコードは変わらない |
 
 次のステップ → [Step 07 - 抽象クラス](../../step07_abstract_classes/docs/article.md)

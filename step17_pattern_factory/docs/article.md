@@ -21,7 +21,7 @@ button.render(); // どの OS でも同じ呼び方
 
 ## 構造
 
-```
+```text
 Button (interface)
 ├── WindowsButton
 ├── MacButton
@@ -48,6 +48,7 @@ public static Button create(String os) {
 ```
 
 新しい OS を追加するとき:
+
 1. `XxxButton` クラスを追加
 2. `ButtonFactory` に1行追加
 3. `Main` は変更不要
@@ -82,7 +83,7 @@ public static Button create(String os) {
 mvn compile exec:java -pl step17_pattern_factory
 ```
 
-```
+```text
 === Factory パターン ===
 OS: Windows → WindowsButton を生成
 [Windows] ボタンを描画: クリック！
@@ -105,7 +106,7 @@ OS: Linux → LinuxButton を生成
 | --- | --- |
 | Factory | オブジェクト生成を1箇所に集約 |
 | インタフェース参照型 | 呼び出し側が具体クラスを知らなくて済む |
-| `switch` 式 | 生成ロジックを簡潔に記述（default で不正値処理）|
+| `switch` 式 | 生成ロジックを簡潔に記述（default で不正値処理） |
 | Open/Closed Principle | 新クラス追加 = Factory に1行 + 呼び出し側変更なし |
 
 次のステップ → [Step 18 - Observer パターン](../../step18_pattern_observer/docs/article.md)

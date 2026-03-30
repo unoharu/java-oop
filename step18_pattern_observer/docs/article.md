@@ -4,7 +4,7 @@
 
 Observer パターン（pub/sub）とは、**イベントの発行者（Publisher）と受信者（Subscriber）を直接つながずに通知する**設計パターンです。発行者は「誰が聞いているか」を知らなくて良く、受信者は「誰が発行しているか」を知らなくて良くなります。
 
-```
+```text
 StockPriceSource   →   EventBus   →   StockTracker
                                    →   AlertSystem
 ```
@@ -83,7 +83,7 @@ bus.publish("AAPL", 160.0); // tracker だけが通知される
 mvn compile exec:java -pl step18_pattern_observer
 ```
 
-```
+```text
 === Observer パターン: EventBus ===
 [StockTracker] AAPL の価格変動: $155.0 → $155.0
 [AlertSystem] 警告: AAPL が $155.0 に達しました！

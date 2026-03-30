@@ -49,7 +49,7 @@ String describe() {
 
 Java では明示的に `extends` を書かない場合、暗黙的に `java.lang.Object` を継承します。`toString()` や `equals()` が使えるのはこのためです。
 
-```
+```text
 Object
   └── Animal
         ├── Dog
