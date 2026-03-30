@@ -92,7 +92,7 @@ Computer c = new Computer.Builder("Core i5", 16) // 必須パラメータ
 mvn compile exec:java -pl step16_pattern_builder
 ```
 
-```
+```text
 === Builder パターン ===
 最小構成:
 Computer{cpu='Core i5', ram=16, storage=256, gpu='なし', os='なし'}

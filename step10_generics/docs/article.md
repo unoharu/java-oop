@@ -68,7 +68,8 @@ static void printAll(List<?> list) { ... }         // 任意の型
 static double sum(List<? extends Number> list) { ... } // Number またはサブタイプ
 ```
 
-**PECS ルール（Producer Extends, Consumer Super）**
+### PECS ルール（Producer Extends, Consumer Super）
+
 - データを**読み出す**（Producer）: `<? extends T>` を使う
 - データを**書き込む**（Consumer）: `<? super T>` を使う
 
@@ -110,7 +111,7 @@ box1.getClass() == box2.getClass() // → true
 mvn compile exec:java -pl step10_generics
 ```
 
-```
+```text
 === Box<T> ===
 Box<String>: Hello
 Box<Integer>: 42
@@ -137,9 +138,9 @@ Box<String> と Box<Integer> は同じクラス: true
 | 要素 | ポイント |
 | --- | --- |
 | `<T>` | 型をパラメータ化。キャスト不要・型安全 |
-| `<T extends X>` | 型パラメータに上限を設ける（制約付き）|
+| `<T extends X>` | 型パラメータに上限を設ける（制約付き） |
 | `<?>` | 型不明のコレクションを扱うワイルドカード |
-| `<? extends T>` | Producer Extends — 読み出し用（PECS）|
+| `<? extends T>` | Producer Extends — 読み出し用（PECS） |
 | 型消去 | ジェネリクスはコンパイル時のみ。実行時は `T` が消える |
 
 次のステップ → [Step 11 - 列挙型](../../step11_enums/docs/article.md)

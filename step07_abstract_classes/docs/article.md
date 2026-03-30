@@ -83,7 +83,7 @@ Markdown 形式の実装。`generate()` で `#` 見出しを返します。
 mvn compile exec:java -pl step07_abstract_classes
 ```
 
-```
+```text
 === ドキュメント生成（テンプレートメソッド）===
 [PDF] ドキュメントを印刷します: 月次レポート
 --- 内容 ---

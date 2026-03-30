@@ -99,7 +99,7 @@ record Person(String name, int age) {
 mvn compile exec:java -pl step12_records
 ```
 
-```
+```text
 === record: Point ===
 p1 = Point[x=3.0, y=4.0]
 p2 = Point[x=0.0, y=0.0]
@@ -120,9 +120,9 @@ IllegalArgumentException: 年齢は 0 以上にしてください: -1
 
 | 要素 | ポイント |
 | --- | --- |
-| `record` | イミュータブルなデータクラスを簡潔に定義（Java 16+）|
-| 自動生成 | コンストラクタ・アクセサー・`equals()`・`hashCode()`・`toString()`|
-| アクセサー名 | `getX()` ではなく `x()`（フィールド名と同じ）|
+| `record` | イミュータブルなデータクラスを簡潔に定義（Java 16+） |
+| 自動生成 | コンストラクタ・アクセサー・`equals()`・`hashCode()`・`toString()` |
+| アクセサー名 | `getX()` ではなく `x()`（フィールド名と同じ） |
 | コンパクトコンストラクタ | パラメータリスト省略でバリデーションを書ける |
 | イミュータブル | フィールドは `private final`。セッターなし |
 

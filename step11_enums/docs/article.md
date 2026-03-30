@@ -112,7 +112,7 @@ String type = switch (day) {
 mvn compile exec:java -pl step11_enums
 ```
 
-```
+```text
 === 基本的な列挙型 ===
 曜日一覧: MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY
 
@@ -139,6 +139,6 @@ SUNDAY は: 休日
 | `values()` / `name()` / `ordinal()` | enum の基本メタデータ |
 | フィールド付き enum | コンストラクタ・メソッドでリッチな定数を定義できる |
 | 抽象メソッド | 定数ごとに異なる振る舞いを強制できる |
-| `switch` 式 | 網羅性をコンパイラが保証する（Java 14+）|
+| `switch` 式 | 網羅性をコンパイラが保証する（Java 14+） |
 
 次のステップ → [Step 12 - レコード](../../step12_records/docs/article.md)

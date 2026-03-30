@@ -86,7 +86,7 @@ String description = switch (shape) {
 mvn compile exec:java -pl step13_sealed_classes
 ```
 
-```
+```text
 === Sealed Interface: Shape ===
 Circle の面積: 78.53981633974483
 Rectangle の面積: 24.0
@@ -107,10 +107,10 @@ Triangle: 底辺 = 5.0, 高さ = 4.0
 
 | 要素 | ポイント |
 | --- | --- |
-| `sealed` | 継承・実装を `permits` で列挙したクラスに制限（Java 17+）|
+| `sealed` | 継承・実装を `permits` で列挙したクラスに制限（Java 17+） |
 | `permits` | 許可するサブタイプを明示的に列挙 |
 | `final` / `record` | `permits` メンバーとして最もよく使われる形 |
-| 網羅的 `switch` | sealed 階層のすべてを列挙すれば `default` 不要（Java 21+）|
+| 網羅的 `switch` | sealed 階層のすべてを列挙すれば `default` 不要（Java 21+） |
 | 用途 | 閉じたドメイン型・代数的データ型のモデリング |
 
 次のステップ → [Step 14 - 例外処理](../../step14_exception_handling/docs/article.md)
