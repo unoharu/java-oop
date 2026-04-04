@@ -22,17 +22,12 @@
     <module>step06_polymorphism</module>
     <module>step07_abstract_classes</module>
     <module>step08_interfaces</module>
-    <module>step09_inner_classes</module>
-    <module>step10_generics</module>
-    <module>step11_enums</module>
-    <module>step12_records</module>
-    <module>step13_sealed_classes</module>
-    <module>step14_exception_handling</module>
-    <module>step15_pattern_singleton</module>
-    <module>step16_pattern_builder</module>
-    <module>step17_pattern_factory</module>
-    <module>step18_pattern_observer</module>
-    <module>step19_pattern_strategy</module>
+    <module>step09_exception_handling</module>
+    <module>step10_pattern_singleton</module>
+    <module>step11_pattern_builder</module>
+    <module>step12_pattern_factory</module>
+    <module>step13_pattern_observer</module>
+    <module>step14_pattern_strategy</module>
   </modules>
 
   <properties>
