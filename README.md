@@ -97,17 +97,12 @@ mvn exec:java -pl step01_classes_objects
 | 06 | [step06_polymorphism](./step06_polymorphism) | ポリモーフィズム | ランタイムポリモーフィズム・`instanceof` パターン変数 |
 | 07 | [step07_abstract_classes](./step07_abstract_classes) | 抽象クラス | `abstract class`・テンプレートメソッド |
 | 08 | [step08_interfaces](./step08_interfaces) | インタフェース | `interface`・`default`/`static`/`private` メソッド |
-| 09 | [step09_inner_classes](./step09_inner_classes) | 内部クラス | 静的ネスト・内部・ローカル・匿名クラス |
-| 10 | [step10_generics](./step10_generics) | ジェネリクス | 型パラメータ・境界・PECS・型消去 |
-| 11 | [step11_enums](./step11_enums) | 列挙型 | `enum` フィールド・抽象メソッド・`switch` 式 |
-| 12 | [step12_records](./step12_records) | レコード | `record`・コンパクトコンストラクタ・イミュータブル |
-| 13 | [step13_sealed_classes](./step13_sealed_classes) | シールドクラス | `sealed`/`permits`・パターンマッチング `switch` |
-| 14 | [step14_exception_handling](./step14_exception_handling) | 例外処理 | checked/unchecked・multi-catch・try-with-resources |
-| 15 | [step15_pattern_singleton](./step15_pattern_singleton) | Singleton パターン | enum シングルトン・Holder イディオム |
-| 16 | [step16_pattern_builder](./step16_pattern_builder) | Builder パターン | Builder・メソッドチェイン・イミュータブルクラス |
-| 17 | [step17_pattern_factory](./step17_pattern_factory) | Factory パターン | Factory Method・open/closed 原則 |
-| 18 | [step18_pattern_observer](./step18_pattern_observer) | Observer パターン | Observer/Event・疎結合 |
-| 19 | [step19_pattern_strategy](./step19_pattern_strategy) | Strategy パターン | Strategy・関数型インタフェースとの統合 |
+| 09 | [step09_exception_handling](./step09_exception_handling) | 例外処理 | checked/unchecked・multi-catch・try-with-resources |
+| 10 | [step10_pattern_singleton](./step10_pattern_singleton) | Singleton パターン | enum シングルトン・Holder イディオム |
+| 11 | [step11_pattern_builder](./step11_pattern_builder) | Builder パターン | Builder・メソッドチェイン・イミュータブルクラス |
+| 12 | [step12_pattern_factory](./step12_pattern_factory) | Factory パターン | Factory Method・open/closed 原則 |
+| 13 | [step13_pattern_observer](./step13_pattern_observer) | Observer パターン | Observer/Event・疎結合 |
+| 14 | [step14_pattern_strategy](./step14_pattern_strategy) | Strategy パターン | Strategy・関数型インタフェースとの統合 |
 
 ## チートシート
 
